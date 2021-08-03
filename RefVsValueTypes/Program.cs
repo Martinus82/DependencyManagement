@@ -17,7 +17,7 @@ namespace RefVsValueTypes
         // Equality operators ??? => always static. Allow me to write something like: obj1 == obj1 => returns true if equal, otherwise false.
         static void Main(string[] args)
         {
-            var person1 = new PersonClass("Martin", "Polansky", 38, Gender.Male);
+            var person1 = new PersonClass("John", "Doe", 38, Gender.Male);
 
             Console.WriteLine(person1 + " ...created!");
 
